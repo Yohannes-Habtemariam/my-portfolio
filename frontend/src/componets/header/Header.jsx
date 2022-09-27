@@ -1,5 +1,7 @@
 import React from "react";
 import myPhoto from "../../images/Yohannes.jpg";
+import success from "../../images/success.png";
+import love from "../../images/love.png"
 import { AiOutlineGithub } from "react-icons/ai";
 import { FaXingSquare, FaLinkedin } from "react-icons/fa";
 import "./Header.css";
@@ -94,12 +96,15 @@ const Header = () => {
           </div>
         </div>
 
-        <div className="success">
+        <div className="success-container">
           <p> 
             The mission of life is to serve others with love. Service then pays off according to what you serve others. That is why I am always happy to serve others with all my heart, mind, soul and body. 
           </p>
           <figure>
-            <img src="" alt="" />
+            <img src={success} alt="Success Photo" />
+          </figure>
+          <figure>
+            <img src={love} alt="Love of Serving Others" />
           </figure>
         </div>
       </div>

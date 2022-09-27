@@ -21,7 +21,11 @@
 .header-container {
   display: grid;
   grid-template-columns: 35% 70%;
+  grid-template-areas: 
+    "person career"
+    "love love";
   column-gap: 1rem;
+  row-gap: 1rem;
   width: var(--container-width-lg);
   margin: auto;
 }
@@ -38,6 +42,7 @@ h2 {
 
 /* Photo, Name with Profession, Social media and CV Container */
 .photo-personal-info-container {
+  grid-area: person;
   margin-top: 5rem;
   background-color: #e6e6fa;
   border-radius: 0.5rem;
@@ -91,6 +96,7 @@ h2 {
 
 /* Web Development and Business Administration Container */
 .careers-container {
+  grid-area: career;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   column-gap: 1rem;
@@ -156,10 +162,24 @@ h2 {
     top: 42%;
 }
 
+.success-container{
+  grid-area: love;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 1rem;
+}
+
+.success-container img{
+  border-radius: 0.5rem;
+}
+
+.success-container p{
+  background-color: #e6e6fa;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
 
 /* 
-.
-
 @media screen and (max-width: 1024px) {
     .header-container {
         display: grid;

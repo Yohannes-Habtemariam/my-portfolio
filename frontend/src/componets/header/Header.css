@@ -1,122 +1,164 @@
-
-.navbar-top{
-    display: flex;
-    background-color: beige;
-    position: fixed;
-    left: 0;
-    right: 0;
+.navbar-top {
+  display: flex;
+  background-color: beige;
+  position: fixed;
+  left: 0;
+  right: 0;
 }
 
-.list-items{
-    width: 100%;
-    display: grid;
-    grid-template-columns: repeat(7, 1fr);
-    background-color: blue;
+.list-items {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  background-color: blue;
 }
 
 .container {
-    height: 100vh;
-    margin-top: 5rem auto;
-    overflow: hidden;
+  height: 100vh;
+  overflow: hidden;
 }
 
 .header-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    column-gap: 1rem;
-    width: var(--container-width-lg);
-    margin: auto;
+  display: grid;
+  grid-template-columns: 35% 70%;
+  column-gap: 1rem;
+  width: var(--container-width-lg);
+  margin: auto;
 }
 
-.social-media-container{
-    display: flex;
-    justify-content: space-around;
+h1 {
+  font-size: 1.4rem;
+  color: aquamarine;
+}
+
+h2 {
+  font-size: 2rem;
+  color: green;
+}
+
+/* Photo, Name with Profession, Social media and CV Container */
+.photo-personal-info-container {
+  margin-top: 5rem;
+  background-color: #e6e6fa;
+  border-radius: 0.5rem;
+}
+
+.photo-educational-background {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.photo-container img {
+  border-radius: 0.5rem 0 0.5rem 0;
+}
+
+.social-media-container {
+  display: flex;
+  justify-content: space-around;
 }
 
 .social-media-container-icon {
-    font-size: 2rem;
-    transition: 0.4s;
+  font-size: 2rem;
+  transition: 0.4s;
 }
 
 .social-media-container-icon:hover {
-    color: red;
+  color: red;
 }
 
-.profession{
-    margin-top: 5rem;
-    margin-left: -4rem;
+.resume-chat-container {
+  margin-top: 2.5rem;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin-bottom: 1rem;
 }
 
-.full-stack-developer {
-    margin-top: 5rem;
+.CV-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid green;
+    padding: 0 0.5rem;
+    border-radius: 0.4rem;
+    color: green;
+    background-color: #b6da7f4a;
+  }
+  
+  .CV-button:hover {
+     color: red;
+    }
+
+/* Web Development and Business Administration Container */
+.careers-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 1rem;
+  margin-top: 5rem;
+}
+
+.web-development, .business-administration {
+  padding-left: 1rem;
+  background-color: #e6e6fa;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 1px;
+}
+
+.business-administration h3 {
+  padding-left: 2rem;
 }
 
 .MERN {
     margin-top: 1.5rem;
     font-weight: 700;
-    background-color: white;
     height: 9rem;
-    margin-top: -0.6rem;
+    margin-top: -1.5rem;
     position: relative;
 }
 
 .mongoDB{
     color: green;
     font-weight: 700;
+    font-size: 1.4rem;
     transform: rotate(90deg);
     position: absolute;
-    left: 3%;
-    top: 30%;
+    left: 8%;
+    top: 45%;
 }
 
 .express{
     color: #000000c8;
     font-weight: 700;
+    font-size: 1.4rem;
     transform: rotate(90deg);
     position: absolute;
-    left: 25%;
-    top: 35%;
+    left: 29%;
+    top: 50%;
 }
 
 .react{
     color:	#4682B4;
     font-weight: 700;
+    font-size: 1.4rem;
     transform: rotate(90deg);
     position: absolute;
-    right: 27%;
-    top: 30%;
+    right: 32%;
+    top: 43%;
 }
 
 .node{
     color:#24bc66;
     font-weight: 700;
+    font-size: 1.4rem;
     transform: rotate(90deg);
     position: absolute;
-    right: 5%;
-    top: 30%;
+    right: 10%;
+    top: 42%;
 }
 
-.photo-container {
-    margin:5rem auto;
-    
-}
 
-.photo-container img {
-    width: 10rem;
-    border-radius: 0.3rem;
-}
-
-.career-info {
-    display: none;
-}
-
-.resume-chat-container {
-    margin-top: 2.5rem;
-    display: flex;
-    gap: 1rem;
-    justify-content: center;
-}
-
+/* 
+.
 
 @media screen and (max-width: 1024px) {
     .header-container {
@@ -198,4 +240,4 @@
     .photo-container{
         margin-bottom: 0;
     }
-}
+} */

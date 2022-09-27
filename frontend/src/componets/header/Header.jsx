@@ -38,54 +38,69 @@ const Header = () => {
         </ul>
       </nav>
       <div className="header header-container">
-        <figure className="photo-container">
-          <div>
-            <img src={myPhoto} alt="Yohannes Photo" />
-          </div>
-          <div className="social-media-container">
-            <a href="https://github.com" target="_blank">
-              <AiOutlineGithub className="social-media-container-icon" />
-            </a>
-            <a href="https://linkedin.com" target="_blank">
-              <FaLinkedin className="social-media-container-icon" />
-            </a>
-            <a href="https://xing.com" target="_blank">
-              <FaXingSquare className="social-media-container-icon" />
-            </a>
-          </div>
-        </figure>
+        <div className="photo-personal-info-container">
+          <div className="photo-educational-background">
+              <div className="photo-icons-container">
+                <figure className="photo-container">
+                  <img src={myPhoto} alt="Yohannes Photo" />
+                </figure>
 
-        <div className="profession">
-          <h1>Yohannes Habtemariam</h1>
-          <h3>Fullstack Developer</h3>
-          <h3>Business Adminstrator</h3>
+                <div className="social-media-container">
+                  <a href="https://github.com" target="_blank">
+                    <AiOutlineGithub className="social-media-container-icon" /> </a>
+                  <a href="https://linkedin.com" target="_blank">
+                    <FaLinkedin className="social-media-container-icon" /> </a>
+                  <a href="https://xing.com" target="_blank">
+                    <FaXingSquare className="social-media-container-icon" /> </a>
+                </div>
+              </div>
+
+              <div className="personal-info">
+                <h2>Yohannes Habtemariam</h2>
+                <h3>Fullstack Developer</h3>
+                <h3>Business Adminstrator</h3>
+              </div>
+          </div>
+
           <div className="resume-chat-container">
-            <a href={CV} download className="btn">
-              Download CV
-            </a>
-            <a href="#contact" className="btn btn-primary">
-              Let's Talk
-            </a>
+            <a href={CV} download className="CV-button"> Download CV </a>
+            <a href="#contact" className="btn btn-primary"> Let's Talk </a>
+          </div>
+
+        </div>
+
+        <div className="careers-container">
+          <div className="web-development">
+            <h2> Web Development </h2>
+            <figure className="full-stack-developer">
+              <img src={MERN2} alt="" />
+              <div className="MERN">
+                <h3 className="mongoDB">MongoDB</h3>
+                <h3 className="express">Express.JS</h3>
+                <h3 className="react">React.JS</h3>
+                <h3 className="node">Node.JS</h3>
+              </div>
+            </figure>
+          </div>
+
+          <div className="business-administration">
+            <h2> Business Administration </h2>
+            <div>
+              <h3> Business research consultant </h3>
+              <h3> Strategic plan developer </h3>
+              <h3> Project Manager </h3>
+              <h3> Lecturer </h3>
+            </div>
           </div>
         </div>
 
-        <figure className="full-stack-developer">
-          <img src={MERN2} alt="" />
-          <div className="MERN">
-            <h2 className="mongoDB">MongoDB</h2>
-            <h2 className="express">Express.JS</h2>
-            <h2 className="react">React.JS</h2>
-            <h2 className="node">Node.JS</h2>
-          </div>
-        </figure>
-        <div className="career-info">
-          <h2> Further Info</h2>
-          <div>
-            <h3> Business research consultant </h3>
-            <h3> Strategic plan developer </h3>
-            <h3> Project Manager </h3>
-            <h3> Lecturer </h3>
-          </div>
+        <div className="success">
+          <p> 
+            The mission of life is to serve others with love. Service then pays off according to what you serve others. That is why I am always happy to serve others with all my heart, mind, soul and body. 
+          </p>
+          <figure>
+            <img src="" alt="" />
+          </figure>
         </div>
       </div>
     </header>

@@ -1,0 +1,112 @@
+.about-container {
+ display: grid; 
+ grid-template-columns: 20% 70%; 
+ column-gap: 1rem; 
+ background-color: blue;
+}
+
+.about-me {
+    aspect-ratio: 1/1;
+    border-radius: 2rem;
+    display: grid;
+    place-items: center;
+}
+
+.about-me img  {
+   width: 10rem;
+   border-radius: 0.5rem;
+   overflow: hidden;
+}
+
+.about-me img:hover  {
+    transform: rotate(360deg);
+    transition: 4s ease;
+ }
+
+.about-content a {
+   margin-bottom: 1rem;
+}
+
+.about-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 1rem;
+    margin: 2rem 0 0 0;
+}
+
+.about-card {
+    background-color: var(--color-bg-blogs);
+    box-shadow: 0 0 2px;
+    border-radius: 0.4rem;
+    padding: 1rem;
+    text-align: center;
+}
+
+.about-card:hover {
+    background: transparent;
+    background-color: var(--color-bg);
+    cursor: default;
+}
+
+.about-icon {
+    color: var(--color-primary);
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+}
+
+.about-card h5 {
+    font-size: 1rem;
+}
+
+.about-card small {
+    font-size: 0.8rem;
+}
+
+.about-content p {
+    margin: 1rem 0;
+}
+
+/* Medium screen styling, such as Tablet */
+
+@media screen and (max-width: 1024px) {
+    .about-container {
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+
+    .about-me {
+        width: 50%;
+        margin: 2rem auto;
+    }
+
+    .about-cards {
+        margin-top: 4rem;
+    }
+
+    .about-content p {
+        margin: 1rem 0 1.5rem;
+    }
+}
+
+/* Small screen styling, such as smart phones*/
+
+@media screen and (max-width: 760px){
+    .about-me {
+        width: 65%;
+        margin: 1rem auto;
+    }
+
+    .about-cards {
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+        margin-top: 3rem;
+    }
+
+    .about-content {
+        text-align: center;
+    }
+
+    .about-content p {
+        margin: 1rem 0;
+    }
+}

@@ -1,0 +1,47 @@
+
+.portfolio-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 1rem;
+}
+
+.portfolio-item {
+    background-color: var(--color-bg-blogs);
+    padding: 1.3rem;
+    border-radius: 1rem;
+    border: 1px solid transparent;
+    transition: var(--transition);
+}
+
+.portfolio-item:hover {
+    border-color: var(--color-primary-hover);
+    background: transparent;
+}
+
+.portfolio-item-imgage img {
+    border-radius: 0.5rem;
+}
+
+.portfolio-item-github {
+    display: flex;
+    gap: 1rem;
+}
+
+/* Medium screen styling, such as Tablet */
+
+@media screen and (max-width: 1024px) {
+    .portfolio-container{
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 1rem;
+        row-gap: 1rem;
+    }
+}
+
+/* Small screen styling, such as smart phones*/
+
+@media screen and (max-width: 760px){
+    .portfolio-container{
+        grid-template-columns: 1fr;
+        row-gap: 1rem;
+    }
+}

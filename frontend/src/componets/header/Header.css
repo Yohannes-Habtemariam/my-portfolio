@@ -1,0 +1,201 @@
+
+.navbar-top{
+    display: flex;
+    background-color: beige;
+    position: fixed;
+    left: 0;
+    right: 0;
+}
+
+.list-items{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    background-color: blue;
+}
+
+.container {
+    height: 100vh;
+    margin-top: 5rem auto;
+    overflow: hidden;
+}
+
+.header-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 1rem;
+    width: var(--container-width-lg);
+    margin: auto;
+}
+
+.social-media-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.social-media-container-icon {
+    font-size: 2rem;
+    transition: 0.4s;
+}
+
+.social-media-container-icon:hover {
+    color: red;
+}
+
+.profession{
+    margin-top: 5rem;
+    margin-left: -4rem;
+}
+
+.full-stack-developer {
+    margin-top: 5rem;
+}
+
+.MERN {
+    margin-top: 1.5rem;
+    font-weight: 700;
+    background-color: white;
+    height: 9rem;
+    margin-top: -0.6rem;
+    position: relative;
+}
+
+.mongoDB{
+    color: green;
+    font-weight: 700;
+    transform: rotate(90deg);
+    position: absolute;
+    left: 3%;
+    top: 30%;
+}
+
+.express{
+    color: #000000c8;
+    font-weight: 700;
+    transform: rotate(90deg);
+    position: absolute;
+    left: 25%;
+    top: 35%;
+}
+
+.react{
+    color:	#4682B4;
+    font-weight: 700;
+    transform: rotate(90deg);
+    position: absolute;
+    right: 27%;
+    top: 30%;
+}
+
+.node{
+    color:#24bc66;
+    font-weight: 700;
+    transform: rotate(90deg);
+    position: absolute;
+    right: 5%;
+    top: 30%;
+}
+
+.photo-container {
+    margin:5rem auto;
+    
+}
+
+.photo-container img {
+    width: 10rem;
+    border-radius: 0.3rem;
+}
+
+.career-info {
+    display: none;
+}
+
+.resume-chat-container {
+    margin-top: 2.5rem;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .header-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: var(--container-width-lg);
+    }
+
+    .career-info {
+        display: block;
+        margin-top: 5rem;
+       margin-left: 3rem;
+    }
+
+    .mongoDB{
+        color: green;
+        font-weight: 700;
+        transform: rotate(90deg);
+        position: absolute;
+        left: 0.5rem;
+        top: 3rem;
+    }
+
+    .express{
+        color: #000000c8;
+        font-weight: 700;
+        transform: rotate(90deg);
+        position: absolute;
+        left: 4.5rem;
+        top: 3rem;
+    }
+    
+    .react{
+        color:	#4682B4;
+        font-weight: 700;
+        transform: rotate(90deg);
+        position: absolute;
+        right: 5rem;
+        top: 3rem;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .header-container {
+        display: flex;
+        flex-direction: column;
+        width: var(--container-width-lg);
+    }
+
+    .photo-container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .MERN, .career-info, .full-stack-developer {
+       display: none;
+    }
+
+    .profession {
+        width: 100%;
+        margin: auto;
+        font-size: 1.5rem;
+    }
+
+    .profession h1 {
+        width: 90%;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    .profession h3 {
+        font-size: 1.2rem;
+        margin-left: 2rem;
+    }
+
+    .resume-chat-container a {
+        font-size: 1rem;
+    }
+
+    .photo-container{
+        margin-bottom: 0;
+    }
+}

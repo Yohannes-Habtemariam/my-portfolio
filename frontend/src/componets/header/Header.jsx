@@ -97,9 +97,18 @@ const Header = () => {
         </div>
 
         <div className="success-container">
-          <p className="personal-mission"> 
-            The mission of life is to serve others with love. Service then pays off according to what you serve others. That is why I am always happy to serve others with all my heart, mind, soul and body. 
-          </p>
+          <div className="personal-mission">
+            <p>
+              The mission of life is to serve others with love. Service then pays off according to what you serve others. That is why I am always happy to serve others with all my heart, mind, soul and body.
+            </p>
+            <p>
+              Passionate Fullstack Web Developer  with 7+ years of professional experience in business administration. Equipped with strong project management and presentation skills due to work in research, consultancy and lecturing.  Looking for an exciting new challenge to build innovative solutions.
+            </p>
+            <p>
+              Confident and look forward to bringing IT and business management together for the benefit of stakeholders.
+            </p>
+          </div>
+         
           <figure className="success-image1">
             <img src={success} alt="Success Photo" />
           </figure>

@@ -97,13 +97,13 @@ const Header = () => {
         </div>
 
         <div className="success-container">
-          <p> 
+          <p className="personal-mission"> 
             The mission of life is to serve others with love. Service then pays off according to what you serve others. That is why I am always happy to serve others with all my heart, mind, soul and body. 
           </p>
-          <figure>
+          <figure className="success-image1">
             <img src={success} alt="Success Photo" />
           </figure>
-          <figure>
+          <figure className="success-image2">
             <img src={love} alt="Love of Serving Others" />
           </figure>
         </div>

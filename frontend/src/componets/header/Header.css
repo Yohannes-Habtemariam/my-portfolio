@@ -187,6 +187,55 @@ h2 {
   margin-left: 0.3rem;
 }
 
+/* Laptop screen size */
+@media screen and (max-width: 1920px) {
+  .personal-mission p{
+    font-size: 0.71rem;
+  }
+
+  .mongoDB{
+    color: green;
+    font-weight: 700;
+    font-size: 1.4rem;
+    transform: rotate(90deg);
+    position: absolute;
+    left: 5%;
+    top: 35%;
+  }
+  
+  .express{
+    color: #000000c8;
+    font-weight: 700;
+    font-size: 1.4rem;
+    transform: rotate(90deg);
+    position: absolute;
+    left: 25%;
+    top: 40%;
+  }
+  
+  .react{
+    color:	#4682B4;
+    font-weight: 700;
+    font-size: 1.4rem;
+    transform: rotate(90deg);
+    position: absolute;
+    right: 28%;
+    top: 35%;
+  }
+  
+  .node{
+    color:#24bc66;
+    font-weight: 700;
+    font-size: 1.4rem;
+    transform: rotate(90deg);
+    position: absolute;
+    right: 7%;
+    top: 35%;
+  }
+  
+}
+
+/* Tablet screen size */
 @media screen and (max-width: 1024px) {
   .header-container {
     display: flex;
@@ -268,6 +317,7 @@ h2 {
 
 }
 
+/* Mobile screen size */
 @media screen and (max-width: 760px) {
     .header-container {
         display: flex;

@@ -76,6 +76,14 @@
     display: flex;
 }
 
+/* Laptop screen size */
+@media screen and (max-width: 1920px) {
+    .experience-list-container h4 {
+        color: green;
+        padding-right: 0;
+        font-size: 0.8rem;
+    }
+}
 
 /* Medium screen styling, such as Tablet */
 

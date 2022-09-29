@@ -9,8 +9,6 @@
     left: 0;
     transform: translatey(-50%);
     bottom: 0.1rem;
-    display: flex;
-    gap: 1rem;
     border-radius: 5rem;
     backdrop-filter: blur(15px);
     font-size: 1.3rem;
@@ -30,3 +28,26 @@
 .nav-items .active {
     background-color: var(--color-bg);
 }
+
+/* Laptop screen size */
+@media screen and (max-width: 1920px) {
+   
+    
+  }
+  
+  /* Tablet screen size */
+  @media screen and (max-width: 1024px) {
+    .nav-items {
+        display: none;
+    } 
+  }
+  
+  /* Mobile screen size */
+  @media screen and (max-width: 760px) {
+
+    .nav-items {
+        display: none;
+    }
+    
+  } 
+  

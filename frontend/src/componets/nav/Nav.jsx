@@ -3,6 +3,7 @@ import { AiFillHome } from "react-icons/ai";
 import { FaUserTie } from "react-icons/fa";
 import { MdOutlineWork, MdOutlineContactMail } from "react-icons/md";
 import { FcSelfServiceKiosk } from "react-icons/fc";
+import {AiOutlineComment} from "react-icons/ai"
 import "./Nav.css";
 
 const Nav = () => {
@@ -30,10 +31,17 @@ const Nav = () => {
       </a>
 
       <a
-        href="#services"
-        onClick={() => setActiveNav("#services")}
-        className={activeNav === "#services" ? "active" : ""} >  
+        href="#portfolio"
+        onClick={() => setActiveNav("#portfolio")}
+        className={activeNav === "#portfolio" ? "active" : ""} >  
         <FcSelfServiceKiosk />
+      </a>
+
+      <a
+        href="#testimonials"
+        onClick={() => setActiveNav("#testimonials")}
+        className={activeNav === "#testimonials" ? "active" : ""} >  
+        <AiOutlineComment />
       </a>
 
       <a href="#contact"

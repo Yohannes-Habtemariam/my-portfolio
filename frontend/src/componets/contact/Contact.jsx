@@ -51,7 +51,7 @@ const sendEmail = (e) => {
         <form ref={form} onSubmit={sendEmail}>
            <input type="text" name='name' placeholder='Full Name' required />
            <input type="email" name='email' placeholder='Enter Email' required/>
-           <textarea name="message" rows="10" placeholder='Type Message' required></textarea>
+           <textarea name="message" rows="21" placeholder='Type Message' required></textarea>
            <button type='submit' className='btn btn-primary'>Send Message</button>
         </form>
       </div>

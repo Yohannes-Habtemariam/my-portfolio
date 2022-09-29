@@ -61,38 +61,31 @@ export const portfolioDat = [
 export const testimonialData = [
     {
         id: 1,
-        image: client1,
-        name: "Stock Market",
-        paragraph: " Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque vel aperiam, libero architecto obcaecati blanditiis similique voluptatum dicta vero, sapiente nihil est, odio ipsa iure maxime ducimus nobis illo cum."
+        image: "",
+        name: "Mr.Jamie Cartwright",
+        title: "Web Development Virtual Lecturer / Pod Supervisor Digital Career Institute",
+        paragraph: "Yohannes has been a student of the Full Stack Web Development course (covering the MERN stack) at the Digital Career Institute (DCI) since 02.09.2021. I have been Yohannes’s lecturer since 10.02.2022, covering the “Single Page Application” and “Backend” course modules. From our time together, I am confident that Yohannes’s strong combination of technical skills and personal qualities will make him an asset in the web development industry. During our time together, Yohannes has been a highly engaged and constructive member of the class. Yohannes is a dedicated and inquisitive learner, who has demonstrated not only a passion for writing clean, technically proficient code, but also a drive to understand the principles behind the code he writes. Yohanes has consistently been a key contributor to class discussions, regularly demonstrating his strong understanding of the materials, as well as having the confidence to ask penetrating questions and contribute excellent insights of his own, without dominating the discussion."
     },
     {
         id: 2,
-        image: client2,
-        name: "Stock Market",
-        paragraph: " Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque vel aperiam, libero architecto obcaecati blanditiis similique voluptatum dicta vero, sapiente nihil est, odio ipsa iure maxime ducimus nobis illo cum."
+        image: "",
+        name: "Dr.James Wangombe",
+        title: "HR & Finance Director",
+        paragraph: "Dr. Yohannes has been working with SBO Research as a contracted Research consultant since 2013 to date. SBO Research Ltd is a Research, Training and Consulting Company operating in the Eastern African region and beyond. Dr. Yohannes is diligent, punctual, self-motivated, creative and open to new ideas. His style of delivery though simple and flexible; is innovative, interactive and thought provoking, constantly seeking to challenge the norms. His wealth of knowledge on research and analytics both locally and international is unmatched. He uses practical examples which are well researched and measurable quantitatively and connects very well with his audience. His day to day curiosity, wide readership and research has earned him original but simple examples that speak loud to the audience."
     },
     {
         id: 3,
-        image: client3,
-        name: "Stock Market",
-        paragraph: " Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque vel aperiam, libero architecto obcaecati blanditiis similique voluptatum dicta vero, sapiente nihil est, odio ipsa iure maxime ducimus nobis illo cum."
+        image: "",
+        name: "Prof. Aloys B. Ayako",
+        title: "Director of Research, Innovation and Graduate Training",
+        paragraph: "As a professor and Senior lecturer in CUEA, I taught Dr. Yohannes both at MBA and DBA levels and served as his doctorate thesis first supervisor: The Impact of Top Management Team Demographic and Power Diversities on Performance of Marketing Research Firms in Kenya. Dr. Yohannes impressed me with his intellectual curiosity, hardworking spirit, contributing view eloquently and adventurous spirit. He brings with him a solid training in pedagogical methods, along with great energy and enthusiasm. He is charismatic and creative, and he thinks outside the box. He has shown excellent classroom management skills and developed a rapport with students, colleagues, and parents that is characterized by mutual respect."
     },
     {
         id: 4,
-        image: client4,
-        name: "Stock Market",
-        paragraph: " Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque vel aperiam, libero architecto obcaecati blanditiis similique voluptatum dicta vero, sapiente nihil est, odio ipsa iure maxime ducimus nobis illo cum."
+        image: "",
+        name: "Dr.Abraham K.",
+        title: "Senior Lecturer at CUEA, Kenya",
+        paragraph: "I have known Dr. Yohannes as my student at The Catholic University of Eastern Africa (CUEA) both at MBA and DBA programs. I taught him two units. He is very intelligent and as a matter of fact he was one of the top students in my class. He was fully participating in class by asking both challenging questions and contributing view eloquently. Moreover, Dr. Yohannes is hard working and academically disciplined person. Given his critical reasoning capacity, and his solid academic background, I am very much confident that he can do good work."
     },
-    {
-        id: 5,
-        image: client5,
-        name: "Stock Market",
-        paragraph: " Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque vel aperiam, libero architecto obcaecati blanditiis similique voluptatum dicta vero, sapiente nihil est, odio ipsa iure maxime ducimus nobis illo cum."
-    },
-    {
-        id: 6,
-        image: client6,
-        name: "Stock Market",
-        paragraph: " Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque vel aperiam, libero architecto obcaecati blanditiis similique voluptatum dicta vero, sapiente nihil est, odio ipsa iure maxime ducimus nobis illo cum."
-    }
+   
 ]

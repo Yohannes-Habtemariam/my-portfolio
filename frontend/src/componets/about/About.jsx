@@ -51,6 +51,9 @@ const About = () => {
           </div>
 
           <div className='about-chat-btn'>
+            <p>
+              If you would like to contact Dr. Yohannes for more information, please click on the next "Let's Talk" button. Remember, one click can change everything! Let's create a wonderful world for all to enjoy. Aristotle said “Happiness is the meaning and purpose of life, the whole aim and the end of human existence” – a sentiment that is still true today. While Aristotle had a philosophical notion of the importance of happiness for human well-being, today we have a range of science and research to back it up. Scientific studies have begun to reveal a host of physical health benefits surrounding happiness including a stronger immune system, stronger resilience in the face of stress, a stronger heart and less risk of cardiovascular disease, alongside quicker recovery times when overcoming illness or surgery. There is even a body of research that indicates being happy may help us to live longer lives. Furthermore, A plurality of experts say digital life will continue to expand people’s boundaries and opportunities in the coming decade and that the world to come will produce more help than harm in people’s lives. Each of us is called upon to use the conveniences of information technology for the common good.
+            </p>
             <a href="#contact" className='btn btn-primary'> Let's Talk</a>
           </div>
         </div>

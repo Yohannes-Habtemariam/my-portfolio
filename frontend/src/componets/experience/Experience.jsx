@@ -1,6 +1,6 @@
 import React from "react";
 import IT from "../../images/IT.jpg"
-import ITBusiness from "../../images/businessAndIT.png"
+import ITBusiness from "../../images/ItAndBusiness.png"
 import { BsFillCheckCircleFill } from "react-icons/bs";
 import "./Experience.css";
 
@@ -198,11 +198,7 @@ const Experience = () => {
         <div className="role-of-in-business">
           <div className="experience-paragraphs">
             <p>
-              Business management without information technology (IT) is like eating bread without soup.This is one of the factors that inspired me to be expert in web development, because an agile and adaptive company requires the benefit-focused and goal-oriented use of relevant information technologies.
-            </p>
-
-            <p>
-              The biggest thing a business has to focus on is improving its business processes. If you are wasting time on things that are not available for your growth, you will not have enough time to think critically and creatively about your products and services.
+              Business management without information technology (IT) is like eating bread without soup.This is one of the factors that inspired me to be expert in web development, because an agile and adaptive company requires the benefit-focused and goal-oriented use of relevant information technologies. In addition, IT could be used to achieve a competitive advantage through cost leadership and differentiation. So IT is becoming increasingly important in achieving our vision.  
             </p>
           </div>
           <figure className="experience-image">

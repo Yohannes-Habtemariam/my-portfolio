@@ -61,9 +61,10 @@
   border-radius: 0.3rem;
 }
 
-/* Laptop screen styling */
 
-@media screen and (max-width: 1920px) {
+/* Laptop */
+/* 
+@media screen and (min-width:1080px) and (max-width:1920px) {
   .testimonial-container {
     display: flex;
     flex-direction: column;
@@ -91,11 +92,12 @@
   .client-image {
     display: none;
   }
-}
+} */
 
-/* Medium screen styling, such as Tablet */
 
-@media screen and (max-width: 1024px) {
+/* Tablet */
+
+@media screen and (max-width: 1079px) {
   .testimonial-container {
     display: flex;
     flex-direction: column;

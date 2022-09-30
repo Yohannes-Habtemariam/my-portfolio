@@ -13,7 +13,9 @@ footer a {
 
 .footer-internal-links {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
 }
 
 .footer-internal-links a{
@@ -48,7 +50,9 @@ footer a {
 
 .footer-copyright{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
 }
 
 .footer-copyright small{

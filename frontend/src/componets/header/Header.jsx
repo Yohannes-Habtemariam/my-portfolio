@@ -7,35 +7,14 @@ import { FaXingSquare, FaLinkedin } from "react-icons/fa";
 import "./Header.css";
 import MERN2 from "../../images/mern-stack.png";
 import CV from "../../images/CV.pdf";
+import Topbar from "./topBar/Topbar";
+import Menu from "./menu/Menu";
 
 const Header = () => {
   return (
     <header className="header-page-container">
-      <nav className="navbar-top">
-        <figure className="logo">
-          <img src="" alt="" />
-        </figure>
-        <ul className="list-items">
-          <li>
-            <a href="#"> Home </a>
-          </li>
-          <li>
-            <a href="#about"> About </a>
-          </li>
-          <li>
-            <a href="#experience"> Experience </a>
-          </li>
-          <li>
-            <a href="#portfolio"> Portfolio </a>
-          </li>
-          <li>
-            <a href="#testimonials"> Testimonials </a>
-          </li>
-          <li>
-            <a href="#contact"> Contact </a>
-          </li>
-        </ul>
-      </nav>
+      <Topbar />
+      <Menu />
       <div className="header header-container">
         <div className="photo-personal-info-container">
           <div className="photo-educational-background">

@@ -23,9 +23,9 @@ const sendEmail = (e) => {
   return (
     <section id='contact'>
       <h5> Get In Touch </h5>
-      <h2> Contact Me </h2>
+      <h2 className='contact-h2'> Contact Me </h2>
 
-      <div className='container contact-container'>
+      <div className='contact-container'>
         <div className='contact-options'>
           <article className='contact-option'>
             <MdEmail className='contact-option-icon'/>

@@ -1,6 +1,11 @@
 #experience {
-  margin-top: 3rem;
+  margin-top: 75px;
 }
+
+.about-h2 {
+  margin-top: 75px;
+}
+
 .container {
   height: 100vh;
   overflow: hidden;
@@ -114,7 +119,7 @@
 /* Laptop */
 
 @media screen and (min-width:1080px) and (max-width:1920px) {
-  
+
 }
 
 /* Tablet */

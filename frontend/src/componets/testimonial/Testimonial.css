@@ -1,5 +1,9 @@
 #testimonials {
-  margin-top: 7rem;
+  margin-top: 10rem;
+}
+
+.testimonial-h2 {
+  margin-top: 75px;
 }
 
 .testimonial-container {
@@ -63,7 +67,7 @@
 
 
 /* Laptop */
-/* 
+
 @media screen and (min-width:1080px) and (max-width:1920px) {
   .testimonial-container {
     display: flex;
@@ -74,7 +78,7 @@
   .swiper-container {
     width: 80%;
     height: 60vh;
-    margin-top: 1rem;
+    margin-bottom: 1rem;
   }
 
   .testimonial-form, .testimonial-paragraph  {
@@ -88,11 +92,7 @@
     font-size: 1rem;
     text-align: justify;
   }
-
-  .client-image {
-    display: none;
-  }
-} */
+} 
 
 
 /* Tablet */

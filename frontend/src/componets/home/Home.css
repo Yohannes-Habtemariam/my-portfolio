@@ -1,22 +1,3 @@
-.navbar-top {
-  display: flex;
-  background-color: beige;
-  position: fixed;
-  left: 0;
-  right: 0;
-}
-
-.list-items {
-  width: 100%;
-  display: grid;
-  grid-template-columns: repeat(7, 1fr);
-  background-color: blue;
-}
-
-.container {
-  height: 100vh;
-  overflow: hidden;
-}
 
 .header-container {
   display: grid;

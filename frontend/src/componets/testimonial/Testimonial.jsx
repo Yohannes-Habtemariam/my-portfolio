@@ -58,9 +58,36 @@ const Testimonial = () => {
   return (
     <section id="testimonials">
       <h5> Review From Clients </h5>
-      <h2> Testimonials </h2>
+      <h2 className="testimonial-h2"> Testimonials </h2>
 
       <div className="testimonial-container">
+
+          <Swiper className="swiper-container"
+            modules={[Navigation, EffectFade]}
+            navigation
+            effect
+            spaceBetween={40}
+            speed={700}
+            slidesPerView={1}
+            loop
+          >
+            {testimonialData.map(({image, name, title, paragraph}, index) => {
+              return (
+                <SwiperSlide className="testimonial-slider" key={index}>
+                  <div className="swiper-slide-container">
+                    <figure className="client-image">
+                      <img src={image} alt="" />
+                    </figure>
+                    <h3 className="client-name"> {name} </h3>
+                    <h6 className="client-title"> {title} </h6>
+                    <p className="client-testimonial"> {paragraph} </p>
+                  </div>
+                </SwiperSlide>
+              );
+            })}
+            
+          </Swiper>
+
           <div>
             <p className="testimonial-paragraph">
               The testimonials provided in the slider are an honest endorsement of my character, qualifications, and accomplishments provided by my clients, colleagues, teachers, or peers. Thank you all for your constructive comments. If you do not feel comfortable to post your photo on the testimonial page, it is not a must. However, if you are willing to have your photo published, I would appreciate it if you could send me via the form below.
@@ -105,33 +132,6 @@ const Testimonial = () => {
               </div>
             </form>
           </div>
-      
-
-          <Swiper className="swiper-container"
-            modules={[Navigation, EffectFade]}
-            navigation
-            effect
-            spaceBetween={40}
-            speed={700}
-            slidesPerView={1}
-            loop
-          >
-            {testimonialData.map(({image, name, title, paragraph}, index) => {
-              return (
-                <SwiperSlide className="testimonial-slider" key={index}>
-                  <div className="swiper-slide-container">
-                    <figure className="client-image">
-                      <img src={image} alt="" />
-                    </figure>
-                    <h3 className="client-name"> {name} </h3>
-                    <h6 className="client-title"> {title} </h6>
-                    <p className="client-testimonial"> {paragraph} </p>
-                  </div>
-                </SwiperSlide>
-              );
-            })}
-            
-          </Swiper>
       </div>
     </section>
   );

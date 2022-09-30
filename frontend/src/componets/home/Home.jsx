@@ -36,7 +36,8 @@ const Home = () => {
   }, []) 
 
   return (
-    <div className="header-page">
+    <div id="home">
+
       <div className="header header-container">
         <div className="photo-personal-info-container">
           <div className="photo-educational-background">

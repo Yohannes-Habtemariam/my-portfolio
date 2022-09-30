@@ -48,7 +48,7 @@ const sendEmail = (e) => {
             <a href="https://api.whatsapp.com/send?phone=+4917681005650" target="_blank"> Sent a Message</a>
           </article>
         </div>
-        <form ref={form} onSubmit={sendEmail}>
+        <form className='contact-form' ref={form} onSubmit={sendEmail}>
            <input type="text" name='name' placeholder='Full Name' required />
            <input type="email" name='email' placeholder='Enter Email' required/>
            <textarea name="message" rows="21" placeholder='Type Message' required></textarea>

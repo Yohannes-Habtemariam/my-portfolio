@@ -17,3 +17,19 @@
 .active {
     right: 0;
 }
+
+.active li {
+    width: 99%;
+    margin-bottom: 2rem;
+}
+
+.active a {
+    color: blue;
+    font-size: 1.6rem;
+}
+
+.active a:hover {
+   color: red;
+   font-weight: bold;
+   background: none;
+}

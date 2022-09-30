@@ -1,20 +1,42 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import myPhoto from "../../images/Yohannes.jpg";
 import success from "../../images/success.png";
 import love from "../../images/love.png"
 import { AiOutlineGithub } from "react-icons/ai";
 import { FaXingSquare, FaLinkedin } from "react-icons/fa";
-import "./Header.css";
+import "./Home.css";
 import MERN2 from "../../images/mern-stack.png";
 import CV from "../../images/CV.pdf";
-import Topbar from "./topBar/Topbar";
-import Menu from "./menu/Menu";
 
-const Header = () => {
+// React Animation with iTyped
+import { init } from 'ityped'
+
+const Home = () => {
+  // Animation using iTyped
+  const webRef = useRef();
+  const businessRef = useRef()
+
+  useEffect(() => {
+    init(webRef.current, { 
+      showCursor: true, 
+      backDelay:  1500,
+      backSpeed:  50,
+      strings: ["MongoDB", "Express", "React", "Node.js" ] 
+    })
+  }, []);
+
+
+  useEffect(() => {
+    init(businessRef.current, { 
+      showCursor: true, 
+      backDelay:  2000,
+      backSpeed:  50,
+      strings: ["Project Manager", "Strategic Planner", "Researcher", "Lecturer" ] 
+    })
+  }, []) 
+
   return (
-    <header className="header-page-container">
-      <Topbar />
-      <Menu />
+    <div className="header-page">
       <div className="header header-container">
         <div className="photo-personal-info-container">
           <div className="photo-educational-background">
@@ -35,8 +57,8 @@ const Header = () => {
 
               <div className="personal-info">
                 <h2>Yohannes Habtemariam</h2>
-                <h3>Fullstack Developer</h3>
-                <h3>Business Adminstrator</h3>
+                <h3>Fullstack Developer - <span ref={webRef}></span> </h3>
+                <h3>Business Administrator - <span ref={businessRef}></span></h3>
               </div>
           </div>
 
@@ -74,13 +96,13 @@ const Header = () => {
 
         <div className="success-container">
           <div className="personal-mission">
-            <p>
+            <p className="header-paragraph">
               The mission of life is to serve others with love. Service then pays off according to what you serve others. That is why I am always happy to serve others with all my heart, mind, soul and body.
             </p>
-            <p>
+            <p className="header-paragraph">
               Passionate Fullstack Web Developer  with 7+ years of professional experience in business administration. Equipped with strong project management and presentation skills due to work in research, consultancy and lecturing.  Looking for an exciting new challenge to build innovative solutions.
             </p>
-            <p>
+            <p className="header-paragraph">
               Confident and look forward to bringing IT and business management together for the benefit of stakeholders.
             </p>
           </div>
@@ -93,8 +115,8 @@ const Header = () => {
           </figure>
         </div>
       </div>
-    </header>
+    </div>
   );
 };
 
-export default Header;
+export default Home;

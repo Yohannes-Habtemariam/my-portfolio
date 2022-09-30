@@ -92,7 +92,10 @@ h2 {
   .CV-button:hover {
      color: red;
     }
-
+.personal-info span {
+  color: green;
+  font-size: 1rem;
+}
 /* Web Development and Business Administration Container */
 .careers-container {
   grid-area: career;
@@ -183,12 +186,32 @@ h2 {
   margin-bottom: 0.5rem;
 }
 
+.header-paragraph {
+  font-size: 1.2rem;
+}
+
 .success-image1, .success-image2 {
   margin-left: 0.3rem;
 }
 
+/* Want the animated blinking cursor? */
+
+.ityped-cursor {
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
 /* Laptop screen size */
-@media screen and (max-width: 1920px) {
+@media screen and (min-width:1025px) and (max-width:1920px) {
   .personal-mission p{
     font-size: 0.71rem;
   }

@@ -111,9 +111,15 @@
   margin-bottom: 1rem;
 }
 
-/* Medium screen styling, such as Tablet */
+/* Laptop */
 
-@media screen and (max-width: 1024px) {
+@media screen and (min-width:1080px) and (max-width:1920px) {
+  
+}
+
+/* Tablet */
+
+@media screen and (max-width: 1079px) {
   .about-container {
     background-color: var(--color-bg);
   }
@@ -146,7 +152,7 @@
   }
 }
 
-/* Small screen styling, such as smart phones*/
+/* Smart phones */
 
 @media screen and (max-width: 760px) {
   .about-container {

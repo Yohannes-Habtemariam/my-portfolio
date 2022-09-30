@@ -58,7 +58,8 @@ const Home = () => {
               <div className="personal-info">
                 <h2>Yohannes Habtemariam</h2>
                 <h3>Fullstack Developer - <span ref={webRef}></span> </h3>
-                <h3>Business Administrator - <span ref={businessRef}></span></h3>
+                <h3>Business Administrator</h3>
+                <> <span ref={businessRef}></span> </>
               </div>
           </div>
 

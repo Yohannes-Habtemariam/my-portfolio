@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "./static/css/main.ed7699cd.css",
-    "main.js": "./static/js/main.e855c2c0.js",
+    "main.css": "./static/css/main.78578d65.css",
+    "main.js": "./static/js/main.e0b12980.js",
     "static/media/success.png": "./static/media/success.de91601d4a5586c8649f.png",
     "static/media/love.png": "./static/media/love.f0af1737cb093267431f.png",
     "static/media/ItAndBusiness.png": "./static/media/ItAndBusiness.315c108c359ec1a7da8e.png",
@@ -21,11 +21,11 @@
     "static/media/image2.jpg": "./static/media/image2.d0c1b57431fb8e2cf88a.jpg",
     "static/media/client6.jpg": "./static/media/client6.14afa2ce99118304f0a7.jpg",
     "index.html": "./index.html",
-    "main.ed7699cd.css.map": "./static/css/main.ed7699cd.css.map",
-    "main.e855c2c0.js.map": "./static/js/main.e855c2c0.js.map"
+    "main.78578d65.css.map": "./static/css/main.78578d65.css.map",
+    "main.e0b12980.js.map": "./static/js/main.e0b12980.js.map"
   },
   "entrypoints": [
-    "static/css/main.ed7699cd.css",
-    "static/js/main.e855c2c0.js"
+    "static/css/main.78578d65.css",
+    "static/js/main.e0b12980.js"
   ]
 }

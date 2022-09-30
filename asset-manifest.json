@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "./static/css/main.ed7699cd.css",
+    "main.js": "./static/js/main.e855c2c0.js",
+    "static/media/success.png": "./static/media/success.de91601d4a5586c8649f.png",
+    "static/media/love.png": "./static/media/love.f0af1737cb093267431f.png",
+    "static/media/ItAndBusiness.png": "./static/media/ItAndBusiness.315c108c359ec1a7da8e.png",
+    "static/media/CV.pdf": "./static/media/CV.8b912a376cb819629067.pdf",
+    "static/media/IT.jpg": "./static/media/IT.919c32b98812f11e89e0.jpg",
+    "static/media/image1.jpg": "./static/media/image1.fe17e313c1881f225d4e.jpg",
+    "static/media/client3.jpg": "./static/media/client3.1ee4ddee3ff7218671de.jpg",
+    "static/media/client4.jpg": "./static/media/client4.2e885840ab4e7adcbd0a.jpg",
+    "static/media/image5.jpg": "./static/media/image5.eafbc0f6d440b1783263.jpg",
+    "static/media/mern-stack.png": "./static/media/mern-stack.79708b7c3b6738cfc9d1.png",
+    "static/media/client1.jpg": "./static/media/client1.b06fef7bca9aa86d7411.jpg",
+    "static/media/client2.jpg": "./static/media/client2.57b8c114587e3fbff44e.jpg",
+    "static/media/client5.jpg": "./static/media/client5.46be4f333b2cbdd674c1.jpg",
+    "static/media/image3.jpg": "./static/media/image3.312b1761d53954974828.jpg",
+    "static/media/image4.jpg": "./static/media/image4.f1ad3f2a27399173f67b.jpg",
+    "static/media/image6.jpg": "./static/media/image6.eb8e8dbc840161ce96c9.jpg",
+    "static/media/image2.jpg": "./static/media/image2.d0c1b57431fb8e2cf88a.jpg",
+    "static/media/client6.jpg": "./static/media/client6.14afa2ce99118304f0a7.jpg",
+    "index.html": "./index.html",
+    "main.ed7699cd.css.map": "./static/css/main.ed7699cd.css.map",
+    "main.e855c2c0.js.map": "./static/js/main.e855c2c0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ed7699cd.css",
+    "static/js/main.e855c2c0.js"
+  ]
+}

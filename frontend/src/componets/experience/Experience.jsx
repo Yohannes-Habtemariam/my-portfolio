@@ -9,7 +9,7 @@ const Experience = () => {
     <section id="experience">
       <h5> What Skills I have</h5>
       <h2 className="experience-h2"> My Experience </h2>
-      <div className="experience experience-container">
+      <div className="experience-container">
         <div className="experience-list-container">
           <div className="experience-frontend">
             <h3> Frontend Development</h3>
@@ -33,7 +33,7 @@ const Experience = () => {
               <article className="experience-details">
                 <BsFillCheckCircleFill className="experience-details-icon" />
                 <div>
-                  <h4>SASS</h4>
+                  <h4>SCSS</h4>
                   <small>Experienced</small>
                 </div>
               </article>
@@ -50,6 +50,14 @@ const Experience = () => {
                 <BsFillCheckCircleFill className="experience-details-icon" />
                 <div>
                   <h4>JavaScript</h4>
+                  <small>Intermediate</small>
+                </div>
+              </article>
+
+              <article className="experience-details">
+                <BsFillCheckCircleFill className="experience-details-icon" />
+                <div>
+                  <h4>DOM Manipulation</h4>
                   <small>Intermediate</small>
                 </div>
               </article>

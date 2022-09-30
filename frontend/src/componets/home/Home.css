@@ -167,8 +167,8 @@ h2 {
   margin-bottom: 0.5rem;
 }
 
-.header-paragraph {
-  font-size: 1.2rem;
+.home-paragraph {
+  text-align: justify;
 }
 
 .success-image1, .success-image2 {

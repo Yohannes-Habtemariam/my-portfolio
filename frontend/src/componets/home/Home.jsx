@@ -47,11 +47,11 @@ const Home = () => {
                 </figure>
 
                 <div className="social-media-container">
-                  <a href="https://github.com" target="_blank">
+                  <a href="https://github.com/Yohannes-Habtemariam" target="_blank">
                     <AiOutlineGithub className="social-media-container-icon" /> </a>
-                  <a href="https://linkedin.com" target="_blank">
+                  <a href="linkedin.com/in/yohannes-habtemariam" target="_blank">
                     <FaLinkedin className="social-media-container-icon" /> </a>
-                  <a href="https://xing.com" target="_blank">
+                  <a href="https://www.xing.com/profile/Yohannes_Habtemariam4/cv" target="_blank">
                     <FaXingSquare className="social-media-container-icon" /> </a>
                 </div>
               </div>
@@ -98,13 +98,13 @@ const Home = () => {
 
         <div className="success-container">
           <div className="personal-mission">
-            <p className="header-paragraph">
+            <p className="home-paragraph">
               The mission of life is to serve others with love. Service then pays off according to what you serve others. That is why I am always happy to serve others with all my heart, mind, soul and body.
             </p>
-            <p className="header-paragraph">
+            <p className="home-paragraph">
               Passionate Fullstack Web Developer  with 7+ years of professional experience in business administration. Equipped with strong project management and presentation skills due to work in research, consultancy and lecturing.  Looking for an exciting new challenge to build innovative solutions.
             </p>
-            <p className="header-paragraph">
+            <p className="home-paragraph">
               Confident and look forward to bringing IT and business management together for the benefit of stakeholders.
             </p>
           </div>

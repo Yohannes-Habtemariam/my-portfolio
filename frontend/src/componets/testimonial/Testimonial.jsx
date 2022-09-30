@@ -94,7 +94,7 @@ const Testimonial = () => {
             </p>
 
             <form onSubmit={submitTestimonial} encType="multipart/form-data" className="testimonial-form">
-              <div>
+              <div className="testimonial-form-input-container">
                 <label htmlFor="fullName"> Full Name </label>
                 <input 
                     type="text" 
@@ -105,7 +105,7 @@ const Testimonial = () => {
                 />
               </div>
 
-              <div>
+              <div className="testimonial-form-input-container">
                 <textarea 
                     name="testimonial" 
                     cols="30" 
@@ -116,7 +116,7 @@ const Testimonial = () => {
                 ></textarea>
               </div>
 
-              <div>
+              <div className="testimonial-form-input-container">
                 <label htmlFor="photo"> Attach Photo </label>
                 <input 
                     type="file" 

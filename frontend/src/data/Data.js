@@ -17,43 +17,43 @@ export const portfolioDat = [
     {
         id: 1,
         image: image1,
-        title: "Stock Market",
-        github: "https//github.com",
-        demo: "https://yohannes-habtemariam.github.io/my-portfolio/"
+        title: "E-commerce",
+        github: "https://github.com/Yohannes-Habtemariam",
+        demo: ""
     },
     {
         id: 2,
         image: image2,
         title: "Stock Market",
-        github: "https//github.com",
+        github: "https://github.com/Yohannes-Habtemariam",
         demo: "https://localhost/3000"
     },
     {
         id: 3,
         image: image3,
         title: "Stock Market",
-        github: "https//github.com",
+        github: "https://github.com/Yohannes-Habtemariam",
         demo: "https://localhost/3000"
     },
     {
         id: 4,
         image: image4,
         title: "Stock Market",
-        github: "https//github.com",
+        github: "https://github.com/Yohannes-Habtemariam",
         demo: "https://localhost/3000"
     },
     {
         id: 5,
         image: image5,
         title: "Stock Market",
-        github: "https//github.com",
-        demo: "https://localhost/3000"
+        github: "https://github.com/Yohannes-Habtemariam",
+        demo: "https://yohannes-habtemariam.github.io/my-portfolio/"
     },
     {
         id: 6,
         image: image6,
         title: "Stock Market",
-        github: "https//github.com",
+        github: "https://github.com/Yohannes-Habtemariam",
         demo: "https://localhost/3000"
     }
 ]

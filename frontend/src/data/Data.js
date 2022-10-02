@@ -54,7 +54,7 @@ export const portfolioDat = [
         image: image6,
         title: "Stock Market",
         github: "https://github.com/Yohannes-Habtemariam",
-        demo: "https://localhost/3000"
+        demo: "https://yohannes-habtemariam.github.io/lisaconsult-react-website-project/"
     }
 ]
 

@@ -45,7 +45,7 @@ export const portfolioDat = [
     {
         id: 5,
         image: image5,
-        title: "Stock Market",
+        title: "Portfolio",
         github: "https://github.com/Yohannes-Habtemariam",
         demo: "https://yohannes-habtemariam.github.io/my-portfolio/"
     },

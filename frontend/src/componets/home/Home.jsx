@@ -20,7 +20,7 @@ const Home = () => {
       showCursor: true, 
       backDelay:  2000,
       backSpeed:  50,
-      strings: ["Project Manager", "Strategic Planner", "Researcher", "Lecturer" ] 
+      strings: ["MongoDB", "Express", "React", "Node.js", "Project Manager", "Strategic Planner", "Researcher", "Lecturer" ] 
     })
   }, []) 
 

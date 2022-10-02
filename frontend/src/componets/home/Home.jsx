@@ -13,18 +13,7 @@ import { init } from 'ityped'
 
 const Home = () => {
   // Animation using iTyped
-  const webRef = useRef();
   const businessRef = useRef()
-
-  useEffect(() => {
-    init(webRef.current, { 
-      showCursor: true, 
-      backDelay:  1500,
-      backSpeed:  50,
-      strings: ["MongoDB", "Express", "React", "Node.js" ] 
-    })
-  }, []);
-
 
   useEffect(() => {
     init(businessRef.current, { 
@@ -58,7 +47,7 @@ const Home = () => {
 
               <div className="personal-info">
                 <h2>Yohannes Habtemariam</h2>
-                <h3>Fullstack Developer - <span ref={webRef}></span> </h3>
+                <h3>Fullstack Developer </h3>
                 <h3>Business Administrator</h3>
                 <> <span ref={businessRef}></span> </>
               </div>

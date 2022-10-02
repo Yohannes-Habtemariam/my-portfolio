@@ -33,7 +33,7 @@ export const portfolioDat = [
         image: image3,
         title: "Stock Market",
         github: "https://github.com/Yohannes-Habtemariam",
-        demo: "https://localhost/3000"
+        demo: "https://yohannes-habtemariam.github.io/react-swiper-email-animation/"
     },
     {
         id: 4,

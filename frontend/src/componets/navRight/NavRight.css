@@ -20,12 +20,12 @@
 
 .active li {
     width: 99%;
-    margin-bottom: 2rem;
+    margin-bottom: 1.2rem;
 }
 
 .active a {
     color: blue;
-    font-size: 1.6rem;
+    font-size: 1.4rem;
 }
 
 .active a:hover {

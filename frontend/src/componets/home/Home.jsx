@@ -38,7 +38,7 @@ const Home = () => {
                 <div className="social-media-container">
                   <a href="https://github.com/Yohannes-Habtemariam" target="_blank">
                     <AiOutlineGithub className="social-media-container-icon" /> </a>
-                  <a href="linkedin.com/in/yohannes-habtemariam" target="_blank">
+                  <a href="https://www.linkedin.com/in/yohannes-habtemariam/" target="_blank">
                     <FaLinkedin className="social-media-container-icon" /> </a>
                   <a href="https://www.xing.com/profile/Yohannes_Habtemariam4/cv" target="_blank">
                     <FaXingSquare className="social-media-container-icon" /> </a>

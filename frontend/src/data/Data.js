@@ -17,16 +17,16 @@ export const portfolioDat = [
     {
         id: 1,
         image: image1,
-        title: "E-commerce",
+        title: "Online Organic Food Delivery",
         github: "https://github.com/Yohannes-Habtemariam",
-        demo: ""
+        demo: "https://yohannes-habtemariam.github.io/online-organic-food-delivery/"
     },
     {
         id: 2,
         image: image2,
-        title: "Stock Market",
+        title: "Supermarket",
         github: "https://github.com/Yohannes-Habtemariam",
-        demo: "https://localhost/3000"
+        demo: "https://yohannes-habtemariam.github.io/lisa-supermarket-website/"
     },
     {
         id: 3,

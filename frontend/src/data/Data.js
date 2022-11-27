@@ -17,44 +17,44 @@ export const portfolioDat = [
     {
         id: 1,
         image: image1,
-        title: "Online Organic Food Delivery",
-        github: "https://github.com/Yohannes-Habtemariam",
-        demo: "https://yohannes-habtemariam.github.io/online-organic-food-delivery/"
+        title: "LisaConsult App",
+        github: "https://github.com/Yohannes-Habte",
+        demo: "https://yohannes-habte.github.io/lisaConsult-website/"
     },
     {
         id: 2,
         image: image2,
-        title: "Supermarket",
-        github: "https://github.com/Yohannes-Habtemariam",
-        demo: "https://yohannes-habtemariam.github.io/lisa-supermarket-website/"
+        title: "Online Organic Food Delivery App",
+        github: "https://github.com/Yohannes-Habte",
+        demo: "https://yohannes-habtemariam.github.io/online-organic-food-delivery/"
     },
     {
         id: 3,
         image: image3,
-        title: "Stock Market",
-        github: "https://github.com/Yohannes-Habtemariam",
-        demo: "https://yohannes-habtemariam.github.io/react-swiper-email-animation/"
+        title: "Shopping Cart App",
+        github: "ttps://github.com/Yohannes-Habte",
+        demo: "https://yohannes-habte.github.io/shopping-cart-app/"
     },
     {
         id: 4,
         image: image4,
-        title: "Stock Market",
-        github: "https://github.com/Yohannes-Habtemariam",
-        demo: "https://localhost/3000"
+        title: "To Do App",
+        github: "ttps://github.com/Yohannes-Habte",
+        demo: "https://yohannes-habte.github.io/to-do-app/"
     },
     {
         id: 5,
         image: image5,
-        title: "Portfolio",
-        github: "https://github.com/Yohannes-Habtemariam",
-        demo: "https://yohannes-habtemariam.github.io/my-portfolio/"
+        title: "Calculator App",
+        github: "ttps://github.com/Yohannes-Habte",
+        demo: "https://yohannes-habte.github.io/calculator/"
     },
     {
         id: 6,
         image: image6,
         title: "Stock Market",
-        github: "https://github.com/Yohannes-Habtemariam",
-        demo: "https://yohannes-habtemariam.github.io/lisaconsult-react-website-project/"
+        github: "ttps://github.com/Yohannes-Habte",
+        demo: "https://yohannes-habte.github.io/test/"
     }
 ]
 
